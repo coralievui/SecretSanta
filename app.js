@@ -1,7 +1,4 @@
 /** WORDLE version TIMCSF
- *  à la suite du "bonhomme pendu" de Michelle Decorte... ;)
- * @author Ève Février, efevrier@csfoy.ca
- * @todo DES TONNES d'améliorations possibles... FAITES VOS SUGGESTIONS!!!
  * (0) optimiser l'algorithme!
  * (1) ajouter des niveaux de difficultés selon la liste utilisée (faire une liste facile avec des mots très courants...)
  * (2) ajouter un bouton aide qui fournit un indice pour chaque mot (modifier en conséquence la structure de données)
@@ -19,13 +16,13 @@ let wordle = {
     getDictionary: function () {
         // sous quelle forme conserver la liste de mots, minimum 50, renouvelables?
         // fichier json fetché ...
-        this.arrMots = new Array("mambo", "tango", "revue", "ravin", "rival", "zumba", "souks", "wagon",
+        this.arrMots = new Array("mambo", "tango", "revue", "ravin", "rival", "zumba", "robes", "wagon",
             "avion", "fusée", "gaffe", "galon", "gamin", "gaver", "gecko", "gnome", "guepe",
             "fleur", "bisou", "bazou", "bebop", "bécot", "biche", "filin", "filet", "filou",
             "fluet", "hache", "haine", "amour", "groin", "gueri", "guide", 
             "franc", "forêt", "habit", "grief", "gruau", "drone", "école", "ruche", "duvet",
             "dunes", "heure", "huard", "hurle", "idéal", "idole", "igloo", "houle", "hippy", "hydre","hyène",
-            "fable", "exclu", "exact", "lever", "ligne", "libre", "nocif", "noces", "niqab")
+            "fable", "exclu", "exact", "lever", "ligne", "libre", "nocif", "noces", "soldé")
 
     },
     pigerMot: function () {
